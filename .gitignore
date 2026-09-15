@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Dataset files
+data/**
+
+# Run artifacts (keep folder structure via .gitkeep)
+outputs/**
+!outputs/**/
+!outputs/**/.gitkeep
+
+# OS / editor
+.DS_Store
+
+# Model checkpoints
+*.pth
+*.pt
+*.ckpt
+
+# Credentials
+.kaggle/
+kaggle.json
+.env
